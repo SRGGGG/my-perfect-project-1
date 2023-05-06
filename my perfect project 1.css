@@ -1,0 +1,46 @@
+body{
+ position: absolute;
+ background-color: #f2f2f2;
+}
+.cursor{
+  CURSOR: pointer;
+  color: green;
+}
+
+.li-о{
+type: circle;
+}
+
+.df{
+  border: 1px solid orange;
+}
+
+.tv{
+ border: 5px double red;
+}
+
+*{
+ font:1em sans-serif;
+ box=sizing: border-box;
+
+}
+
+.row{
+position: relative;
+padding: 6px;
+}
+
+input{
+ color: #555;
+ border-radius: .1em;
+}
+
+input:focus{
+  box-shadow: 0 0 0 4px rgba(149,197,243,.9);
+  border: 1px solid #71aaf8;
+}
+
+label{
+color:#999;
+transition: all .1s ease-in-out;
+}
